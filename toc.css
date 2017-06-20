@@ -1,9 +1,9 @@
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion_topic {
     background-color: #0082be;
-    color: #444;
+    color: #fff;
     cursor: pointer;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
     text-align: left;
     border: none;
@@ -11,13 +11,14 @@ button.accordion_topic {
     border-radius: 8px;
     width: 75%;
     font-family: "Arial";
+    margin: 5px;
 }
 
 button.accordion {
     background-color: #f37536;
-    color: #444;
+    color: #fff;
     cursor: pointer;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
     text-align: left;
     border: none;
@@ -25,16 +26,39 @@ button.accordion {
     border-radius: 8px;
     width: 75%;
     font-family: "Arial";
+    margin: 5px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
+button.accordion.active {
+    color: #f37536;
+    background-color: white;
+    border: 2px solid #f37536;
+}*/
+
+/*button.accordion_topic.active {
+    color: #0082be;
+    background-color: white;
+    border: 2px solid #0082be;
+}*/
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
+}
+
+.button_wrapper {
+    text-align: center;
+}
+
+.lo {
+    text-align: left;
+    padding-left: 18%;
+}
+
+h1 {
+    font-family: "Arial";
+    padding-left: 8%;
 }

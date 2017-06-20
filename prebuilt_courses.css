@@ -1,9 +1,11 @@
 h1 {
     font-family: "Arial";
+    padding-left: 8%;
 }
 
 p {
     font-family: "Arial";
+    padding-left: 8%;
 }
 
 .course_wrapper {
@@ -15,7 +17,7 @@ p {
     border: none;
     color: white;
     padding: 15px 32px;
-   
+    
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
