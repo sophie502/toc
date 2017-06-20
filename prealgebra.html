@@ -5,36 +5,110 @@
 </head>
 <body>
 
-	<h1>MindTap Math Foundations</h1>
+	<h1>Table of Contents: PreAlgebra</h1>
 
-	<button class="accordion">Whole Numbers</button>
+	<button class="accordion_topic">Whole Numbers</button>
 	<div class="panel">
-	 	 <p class = "accordion">Assignment Chain 1</p>
+	 	 <button class = "accordion">Assignment Chain 1</button>
 	 	 <div class = "panel">
 	 	 	<p>Learning Objective</p>
 	 	 </div>
 	</div>
 
-	<button class="accordion">Number Lines</button>
+	<button class="accordion_topic">Integers</button>
 	<div class="panel">
-	  	<p class = "accordion">Assignment Chain 2</p>
+	  	<button class = "accordion">Assignment Chain 5</button>
 	  	<div class = "panel">
 	 	 	<p>Learning Objective</p>
 	 	 </div>
 	</div>
 
-	<button class="accordion">Fractions</button>
+	<button class="accordion_topic">Fractions</button>
 	<div class="panel">
-	 	 <p class = "accordion">Assignment Chain 3</p>
-	 	 
+	 	 <button class = "accordion">Assignment Chain 9</button>
+	 	 <div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Decimals</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 14</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Real Numbers</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 16</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Expressions</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 20</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Equations</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 26</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">The Rectangular Coordinate System</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 30</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Measurement</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 31</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Percent</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 34</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Geometry</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 37</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
+	</div>
+
+	<button class="accordion_topic">Data</button>
+	<div class="panel">
+	  	<button class = "accordion">Assignment Chain 42</button>
+	  	<div class = "panel">
+	 	 	<p>Learning Objective</p>
+	 	 </div>
 	</div>
 
 	<script>
-	var acc = document.getElementsByClassName("accordion");
+	var acc_top = document.getElementsByClassName("accordion_topic");
 	var i;
 
-	for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
+	for (i = 0; i < acc_top.length; i++) {
+    acc_top[i].onclick = function(){
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
         this.classList.toggle("active");
@@ -48,6 +122,25 @@
         }
     }
 }
+
+var acc_assign = document.getElementsByClassName("accordion");
+	var j;
+
+	for (j = 0; j < acc_assign.length; j++) {
+    acc_assign[j].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+} 
 	</script>
 
 </body>

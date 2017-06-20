@@ -1,15 +1,33 @@
+h1 {
+    font-family: "Arial";
+}
+
+p {
+    font-family: "Arial";
+}
+
+.course_wrapper {
+    text-align: center;
+}
+
 .button {
     background-color: #0082be;
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
+   
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px;
-    width: 75%;
+    border-radius: 10px;
+    width: 65%;
     font-family: "Arial";
 }
+
+.disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
