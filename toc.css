@@ -12,6 +12,7 @@ button.accordion_topic {
     width: 75%;
     font-family: "Arial";
     margin: 5px;
+    font-size: 14px;
 }
 
 button.accordion {
@@ -27,6 +28,7 @@ button.accordion {
     width: 75%;
     font-family: "Arial";
     margin: 5px;
+    font-size: 14px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
