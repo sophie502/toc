@@ -57,12 +57,19 @@ div.panel {
 
 .lo {
     text-align: left;
-    padding-left: 18%;
+    
     font-family: "Arial";
     color: #0082be;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 h1 {
     font-family: "Arial";
     padding-left: 8%;
+}
+
+ul {
+    padding-left: 20%;
+    padding-right: 20%;
 }
