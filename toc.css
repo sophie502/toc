@@ -15,7 +15,7 @@ button.accordion_topic {
     font-size: 14px;
 }
 
-button.accordion {
+button.accordion_assignment {
     background-color: #f37536;
     color: #fff;
     cursor: pointer;
@@ -31,18 +31,17 @@ button.accordion {
     font-size: 14px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
-button.accordion.active {
+button.accordion_assignment:hover {
     color: #f37536;
     background-color: white;
     border: 2px solid #f37536;
-}*/
+}
 
-/*button.accordion_topic.active {
+button.accordion_topic:hover {
     color: #0082be;
     background-color: white;
     border: 2px solid #0082be;
-}*/
+}
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
